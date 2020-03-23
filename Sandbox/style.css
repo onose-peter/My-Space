@@ -1,0 +1,19 @@
+.box{
+width: 100px;
+height: 100px;
+}
+.one{
+background-color: yellow;
+}
+.two{
+background-color: darkgreen;
+}
+.three{
+background-color: tomato;
+}
+.four{
+background-color: blueviolet;
+}
+.five{
+background-color: aqua;
+}

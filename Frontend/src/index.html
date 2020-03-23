@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="src.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- your bootstrap css link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/mobile-style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+      <!-- the upper part of your website (the navbar and sometime hero image) -->
+        <header>
+             <!-- the container-fluid specifies 100% width of the screen -->
+             <div class="container-fluid p-0">
+                <nav class="navbar navbar-expand-lg">
+                    <a class="navbar-brand" href="#">Navbar</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                     <i class="fa fa-align-right text-light"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+
+                    <div class="mr-auto"></div>
+                      <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Log in</a>
+                          </li>
+
+                          <!-- next we create a dropdown -->
+                          <li class="nav-item">
+                              <div class="dropdown">
+                                     <a class="nav-link" href="#">Categories</a>
+                               <div class="dropdown-content">
+                                     <a href="#">Content 1</a>
+                                     <a href="#">Content 2</a>
+                            
+                              </div>
+                              </div>
+                          </li>
+
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">FAQ</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                          </li>
+
+                      </ul>
+                    </div>
+                  </nav>
+            </div>
+
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-7 col-sm-12">
+                        <h1>Welcome to mySpace</h1>
+                        <h3>Largest bookstore for developers</h3>
+                        <p>mySpace is a platform where software devs buy books, share, recommend and network with one devs.</p>
+                        <a class="btn btn-dark primary-btn text-capitalize px-5 py-2" href="#">Sign up</a>
+                    </div>
+                    <div class="col-md-5 col-sm-12">
+                        <img src="../assets/banner-image.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </header>
+     
+         <main><!-- the main content of your website -->
+            <!-- 1st section -->
+            <section class="section-1">
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col-md-6 col-12">
+                            <div class="section-img">
+                                <img src="../assets/apt.jpg" alt="" class="">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <div class="panel text-left">
+                                <h1>Our Story</h1>
+                                <p class="pt-4">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quasi vitae quis temporibus ipsum, distinctio veniam ea rem voluptates quidem minima similique, quae est asperiores accusantium repellat fuga illum. Facere.
+                                </p>
+                                <p>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem velit repellat reprehenderit labore officia ab, assumenda atque nobis qui eum?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+           <!-- Second section of the page -->
+            <section class="section-2 container-fluid p-0">
+                <div class="cover">
+                    <div class="overlay"></div>
+                    <div class="content text-center">
+                        <h1>Some Features Made Us Unique</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, dolorum.</p>
+                    </div>
+                </div>
+                <div class="container-fluid text-center">
+                    <div class="numbers d-flex flex-md-row flex-wrap justify-content-center">
+                        <div class="rect">
+                            <h1>9583</h1>
+                            <p>Reviews</p>
+                        </div>
+                        <div class="rect">
+                            <h1>1056</h1>
+                            <p>Registered users</p>
+                        </div>
+                        <div class="rect">
+                            <h1>9152</h1>
+                            <p>Solid Books</p>
+                        </div>
+                        <div class="rect">
+                            <h1>1025</h1>
+                            <p>Solid Books</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+           <!-- third section of the page -->
+            <section class="section-3 container-fluid p-0 text-center">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <h1>Download Our App For All Platforms</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi modi exercitationem alias aspernatur corporis expedita molestiae amet aliquid doloremque tenetur.</p>
+                    </div>
+                </div>
+                <div class="platform row">
+                    <div class="col-md-6 col-sm-12 text-right">
+                        <div class="desktop shadow-lg">
+                            <div class="d-flex flex-row justify-content-center">
+                                <i class="fa fa-desktop fa-3x py-2 pr-3"></i>
+                                <div class="text text-left">
+                                    <h3 class="pt-1 m-0">Desktop</h3>
+                                    <p class="p-o m-0">On Website</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12 text-left">
+                        <div class="desktop shadow-lg">
+                            <div class="d-flex flex-row justify-content-center">
+                                <i class="fa fa-mobile fa-3x py-2 pr-3"></i>
+                                <div class="text text-left">
+                                    <h3 class="pt-1 m-0">On Mobile</h3>
+                                    <p class="p-0 m-0">On Play Store</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- fourth section (team member carousel) -->
+            <section class="section-4">
+                <div class="container text-center">
+                    <h1 class="text-dark"> What our reader says about us</h1>
+                    <p class="text-secondary"> Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                </div>
+                <div class="team row">
+                    <!-- card 1 -->
+                    <div class="col-md-4 col-12 text-center">
+                        <div class="card mr-2 d-inline-block shadow-lg">
+                            <div class="card-img-top">
+                                <img src="../assets/UI-face-3.jpg" class="img-fluid border-radius p-4" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">Blalock Jolene</h3>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores alias mollitia eligendi maxime culpa perferendis rem? Quas, tenetur veniam cum assumenda esse sint aut? Iusto, laborum fugit? Neque, expedita accusantium!</p>
+                                <a href="#" class="text-secondary text-decoration-none">Go somewhere</a>
+                                <p class="text-black-50">CEO at Google</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- carousel -->
+                    <div class="col-md-4 col-12">
+                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner text-center">
+                                <div class="carousel-item active">
+                                    <div class="card mr-2 d-inline-block shadow">
+                                        <div class="card-img-top">
+                                            <img src="../assets/UI-face-1.jpg" class="img-fluid rounded-circle w-50 p-4" alt="">
+                                        </div>
+                                        <div class="card-body">
+                                            <h3 class="card-title">Allen Agnes</h3>
+                                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit qui quam aperiam harum ducimus eius aliquid perferendis repudiandae, similique id natus eos cupiditate saepe, nulla quibusdam mollitia doloribus quia exercitationem!</p>
+                                            <a href="#" class="text-secondary text-decoration-none">Go somewhere</a>
+                                            <p class="text-black-50">CEO at Google</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- carousel card2 -->
+                                <div class="carousel-item">
+                                    <div class="card d-inline-block mr-2 shadow">
+                                        <div class="card-img-top">
+                                            <img src="../assets/UI-face-2.jpg" class="img-fluid rounded-circle w-50 p-4" alt="">
+                                        </div>
+                                        <div class="card-body">
+                                            <h3 class="card-title">Amiel Barbara</h3>
+                                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ullam maxime quasi, veniam ab eaque? Facere qui pariatur ipsam sint repellat, perspiciatis illo reprehenderit cumque, magnam ullam labore. Consectetur, iusto.</p>
+                                            <a href="#" class="text-secondary text-decoration-none">Go somewhere</a>
+                                            <p class="text-black-50">CEO at Google</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card 3 -->
+                    <div class="col-md-4 col-12 text-center">
+                        <div class="card mr-2 d-inline-block shadow-lg">
+                        <div class="card-img-top">
+                            <img src="../assets/UI-face-4.jpg" class="img-fluid border-radius p-4" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Olivia Louis</h3>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam placeat similique expedita deserunt temporibus provident tempora. Eveniet, temporibus ullam laudantium saepe eligendi veniam vero doloribus qui reprehenderit enim animi est!</p>
+                            <a href="#" class="text-secondary text-decoration-none">Go somewhere</a>
+                            <p class="text-black-50">CEO at Google</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+         </main> 
+      
+
+     
+         <footer><!-- the last part of your website where you might want to add aditional information -->
+            <div class="container-fluid p-0">
+                <div class="row one">
+                    <div class="col-md-5 col-sm-5">
+                        <!-- about beginning -->
+                        <h4 class="text-light">About us</h4>
+                        <p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium excepturi minima perspiciatis. Eveniet nobis quam laudantium, error eum sit voluptates.</p>
+                        <p class="pt-4 text-muted">Copyright &copy;2020 All rights reserved | this template is made with love by <span>My Space</span></p>
+                    </div>
+                    <!-- About Ending -->
+
+                    <!-- news letter and forms -->
+                    <div class="col-md-5 col-sm-12">
+                        <h4 class="text-dark">Newsletter</h4>
+                        <p class="text-muted">Stay Updated</p>
+                        <form class="form-inline">
+                            <div class="col pl-0">
+                                <div class="input-group pr-5">
+                                    <input type="email" class="form-control bg-dark text-white" id="inlineFormInputGroupUsername2" placeholder="Email">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text">
+                                            <i class="fa fa-arrow-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- End of news letter and form -->
+
+                    <!-- socials -->
+                    <div class="col-md-2 col-sm-12">
+                        <h4 class="text-dark">Follow Us</h4>
+                        <p class="text-muted">on all platforms</p>
+                        <div class="column text-dark">
+                            <i class="fa fa-facebook"></i>
+                            <i class="fa fa-instagram"></i>
+                            <i class="fa fa-twitter"></i>
+                            <i class="fa fa-youtube"></i>
+                        </div>
+                    </div>
+                    <!-- end of socials -->
+                </div>
+            </div>
+
+         </footer>
+
+
+         <!-- your javascript/Jquery tags (from Bootstrap) -->
+         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>
+
